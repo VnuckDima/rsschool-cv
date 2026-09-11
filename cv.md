@@ -67,5 +67,4 @@ function positiveSum(arr) {
 
 # English __B1__
 
-
 <img src="https://media.giphy.com/media/MM0Jrc8BHKx3y/giphy.gif" width="100%">
