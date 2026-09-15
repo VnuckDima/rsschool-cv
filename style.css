@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.89);
+}
+
+.star {
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+  left: 20px;
+}
+.star1:before {
+  content: "★★★★★★★★";
+}
+.star2:before {
+  content: "★★★★★★★";
+}
+.star4:before {
+  content: "★★★";
+}
+.star5:before {
+  content: "★★★";
+}
+.star6:before {
+  content: "★★★";
+}
+
+ul > li {
+  padding: 8px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-size: 35px;
+  color: rgb(197, 172, 72);
+}
+
+.main-cont-cv {
+  width: 1000px;
+  height: 1200px;
+  margin: auto;
+  border: 1px solid #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cont-wrap {
+  display: flex;
+}
+
+.header {
+  width: 400px;
+  height: 450px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  color: rgb(197, 172, 72);
+  background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.image-avatar_size {
+  width: 250px;
+  height: 250px;
+  border: 10px solid #ffcc34;
+  border-radius: 125px;
+  background: url("./img/PhotoCut.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0 0 0;
+}
+
+.title-name_font {
+  font-size: 30px;
+}
+
+.title-frontend_font {
+  font-size: 20px;
+}
+
+.main {
+  width: 400px;
+  height: 749px;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  background: black;
+  font-weight: bolder;
+  color: #eec342;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+.contacts_size-wrap {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  left: 15px;
+}
+
+.contacts__email {
+  margin-top: 40px;
+}
+
+.contacts__phone {
+  margin-top: 40px;
+}
+
+.phone {
+  position: relative;
+  left: 5px;
+}
+
+.fa-contacts {
+  padding-right: 16px;
+  font-size: 25px;
+}
+
+.fa-mobile-alt {
+  color: rgb(224, 207, 139);
+}
+
+.fa-at {
+  position: relative;
+  right: 3px;
+  color: rgb(224, 207, 139);
+}
+
+.skill-list_size-wrap {
+  height: 300px;
+}
+
+.skill-marker {
+  list-style: none;
+}
+
+.fa-skill {
+  padding-right: 25px;
+  font-size: 25px;
+}
+
+.fa-box-open {
+  position: relative;
+  right: 4px;
+  color: #75afcc;
+}
+
+.fa-file-code {
+  color: crimson;
+}
+
+.fa-tumblr {
+  position: relative;
+  left: 4px;
+  color: dodgerblue;
+}
+
+.fa-github {
+  color: #f7cf9d;
+}
+
+.fa-angular {
+  color: #c3002f;
+}
+
+.fa-react {
+  color: #4fc3f7;
+}
+
+.webpack {
+  position: relative;
+  right: 9px;
+}
+
+.react {
+  position: relative;
+  right: 3px;
+}
+
+.typescript {
+  position: relative;
+  left: 4px;
+}
+
+.language-list_size-wrap {
+  height: 200px;
+  margin-top: 50px;
+  position: relative;
+  left: 10px;
+}
+
+.language {
+  margin-top: 25px;
+}
+
+.title-main {
+  font-size: 30px;
+  text-align: center;
+}
+
+.cont-right-wrap {
+  text-align: center;
+}
+
+.about-myself_size {
+  width: 600px;
+  height: 300px;
+  border: 2px solid #000;
+  padding-top: 10px;
+  background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.about-myself-desc_size {
+  font-size: 25px;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: cornsilk;
+}
+
+.education_size {
+  width: 600px;
+  height: 200px;
+  border: 2px solid #000;
+  padding-top: 10px;
+  background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.education-desc_size {
+  font-size: 25px;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 10px;
+  color: cornsilk;
+}
+
+.courses_size {
+  width: 600px;
+  height: 250px;
+  border: 2px solid #000;
+  padding-top: 5px;
+  background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.courses-desc_size {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: cornsilk;
+}
+
+.code-example_size {
+  width: 600px;
+  height: 450px;
+  border: 2px solid #000;
+  padding-top: 10px;
+  background: url("https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg");
+}
+
+.courses-list_padding {
+  padding-left: 30px;
+}
+
+.courses-list_padding > li {
+  font-size: 25px;
+}
+
+.img-codewars {
+  width: auto;
+  height: auto;
+}
+
+.cont-img-codewars {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+  border: 2px solid #000;
+  background: cornsilk;
+}
+
+.footer-cont_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-rs {
+  width: 50px;
+  height: 50px;
+}
+
+.image-github {
+  width: 100px;
+  height: 100px;
+}
+
+.year {
+  font-size: 20px;
+}
+
+.img-project{
+    width: 180px;
+    height: 130px;
+    margin: 5px;
+    border: 5px solid cornsilk
+}
+
+.img-project_picture-one{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQESdcuB5oKB1w/feedshare-shrink_1280/0/1635965255637?e=1644451200&v=beta&t=3wE3X83gN2gBvxAoRZSI0An1DcK0tpn9mAAssHOZoFY');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-two{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQFQgbIAdG4UFA/feedshare-shrink_1280/0/1635965207171?e=1644451200&v=beta&t=SI_6PJ4KE6cwF-g-vbncfqE5F5YM1oSmVnLIxvVAw4Y');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-three{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQHBemM-9JWi6g/feedshare-shrink_1280/0/1635965112353?e=1644451200&v=beta&t=tP5q2gtDMKTUuPVzWVhVAnhUi9tG3-u3kjT1hCPUW0s');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-four{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQH6q-dhi-K4Yw/feedshare-shrink_1280/0/1635964981040?e=1644451200&v=beta&t=q1siBPyIuK-qLh-fh8aMnAYl__rYtHTDEeU4LSlRGms');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-five{
+    background: url('https://media-exp1.licdn.com/dms/image/C4D22AQE7RMMV7-yHBw/feedshare-shrink_1280/0/1635964892745?e=1644451200&v=beta&t=hBIkUMQ-7Ge9Pe5GMs8zvL8G9CIICJF_6OFePGmldEM');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-project_picture-six{
+    background: url('./img/christmas.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.image-codewars{
+    width: 70px;
+}
